@@ -1,10 +1,10 @@
-package io.github.youngkim90.hellowebsocket
+package io.github.youngkim90.websocketchatting
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class HelloWebsocketApplicationTests {
+class WebsocketChattingApplicationTests {
 
 	@Test
 	fun contextLoads() {
