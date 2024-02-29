@@ -11,6 +11,22 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/websocket-chatting" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/websocket-chatting" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/websocket-client" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/websocket-client" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
