@@ -10,7 +10,7 @@ import org.springframework.web.util.HtmlUtils
 class ChattingController {
   private val logger = KotlinLogging.logger {}
 
-  @MessageMapping("/chatting-Message")
+  @MessageMapping("/chatting-message")
   @SendTo("/topic/chatting")
   fun chatting(message: ChattingMessageDto): ChattingResponseDto {
     logger.info { message.message }
