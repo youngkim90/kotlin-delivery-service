@@ -14,6 +14,13 @@ java {
   sourceCompatibility = JavaVersion.VERSION_17
 }
 
+configurations {
+  compileOnly {
+    extendsFrom(configurations.annotationProcessor.get())
+  }
+}
+
+
 repositories {
   mavenCentral()
 }
@@ -21,6 +28,9 @@ repositories {
 dependencies {
   implementation("org.springframework.boot:spring-boot-starter-websocket")
   implementation("org.jetbrains.kotlin:kotlin-reflect")
+  implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+
+  developmentOnly("org.springframework.boot:spring-boot-devtools")
   testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
